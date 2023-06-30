@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <div class="container" >
+    <h1 class="title">Currency Converter</h1>
+    <div class="input-field">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" min="0" step="0.01">
+    </div>
+    <div class="input-field">
+      <label for="from">From:</label>
+      <select id="from">
+        <option value="USD">USD (US Dollar)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="GBP">GBP (Sterling Pound)</option>
+        <option value="RON">RON (Romanian Leu)</option>
+        <option value="AUD">AUD (Australian Dollar)</option>
+        <option value="SGD">SGD (Singapore Dollar)</option>
+        <option value="CAD">CAD (Canadian Dollar)</option>
+        <option value="CHF">CHF (Swiss Franc)</option>
+        <option value="MXN">MXN (Mexican Peso)</option>
+        <!-- Add more currency options if needed -->
+      </select>
+    </div>
+    <div class="input-field">
+      <label for="to">To:</label>
+      <select id="to">
+        <option value="USD">USD (US Dollar)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="GBP">GBP (Sterling Pound)</option>
+        <option value="RON">RON (Romanian Leu)</option>
+        <option value="AUD">AUD (Australian Dollar)</option>
+        <option value="SGD">SGD (Singapore Dollar)</option>
+        <option value="CAD">CAD (Canadian Dollar)</option>
+        <option value="CHF">CHF (Swiss Franc)</option>
+        <option value="MXN">MXN (Mexican Peso)</option>
+        <!-- Add more currency options if needed -->
+      </select>
+    </div>
+    <button id="convert-btn">Convert</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
